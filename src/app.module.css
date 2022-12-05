@@ -1,0 +1,11 @@
+.blockMyImage {
+    width: 100%;
+   position: fixed;
+}
+
+.myImage {
+   max-width: 600px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
