@@ -1,0 +1,25 @@
+@import '../../common/styles/sass/mixins';
+
+.projectsBlock {
+  height: 100vh;
+.container {
+  @include container ();
+  .projectsTitle {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.75em;
+    color: #9c5451;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .wrapperProjects {
+    display: flex;
+    justify-content: space-between;
+
+  }
+}
+}
+
+
+

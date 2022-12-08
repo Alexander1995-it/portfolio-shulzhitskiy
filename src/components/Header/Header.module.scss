@@ -1,0 +1,61 @@
+@import '../../common/styles/sass/mixins';
+
+.headerBlock {
+  height: 100px;
+  box-shadow: 0 0 50px 0 rgb(0 0 0 / 40%);
+  background-color: #191919;
+  width: 100%;
+
+  .container {
+    @include container();
+
+    .linksRow {
+      display: flex;
+      height: 100%;
+      justify-content: right;
+      align-items: center;
+
+      .link {
+        color: #999 !important;
+        position: relative;
+        transition: all 200ms linear;
+
+        &::after {
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          content: '';
+          background-color: #9c5451;
+          opacity: 0;
+          transition: all 200ms linear;
+        }
+
+        &:hover::after {
+          opacity: 1;
+        }
+
+        &:hover {
+          color: #9c5451 !important;
+        }
+      }
+    }
+
+    .linksRow a {
+      text-decoration: none;
+      font-size: 18px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 500;
+      margin-right: 15px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
