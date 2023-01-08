@@ -19,10 +19,9 @@ const AboutMe = () => {
                             <div className={style.aboutMeName}>Alexander Shulshytskiy</div>
                             <div className={style.aboutMeProfession}>Frontend developer</div>
                             <div className={style.aboutMeText}>
-                                Formik takes care of the repetitive and annoying stuff—keeping track of
-                                values/errors/visited fields, orchestrating validation, and handling submission—so you
-                                don't have to. This means you spend less time wiring up state and change handlers and
-                                more time focusing on your business logic.
+                                I am a frontend developer with experience in creating web applications, using React / Redux.
+                                I am improving my skills in this direction and expanding them with the help of new technologies also in my free time i improve my English.
+                                I know how to work in a team. Open to your suggestions. I am ambitious and hard-working and believe you’ll give me a chance to prove my words.
                             </div>
                             <div className={style.iconInstagram}>
                                 <img src={iconInstagram} alt=""/>

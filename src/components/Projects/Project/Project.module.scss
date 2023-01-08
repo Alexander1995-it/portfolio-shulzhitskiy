@@ -50,15 +50,28 @@
     }
 
     .buttonBlock span {
+      font-family: "Josefin Sans", sans-serif;
+      position: relative;
       display: inline-block;
-      border-radius: 5px;
-      padding: 4px;
+      padding: 9px 20px 6px 20px;
+      font-size: 15px;
+      text-transform: uppercase;
+      line-height: 1.5em;
       color: #fff;
-      font-size: 20px;
-      font-family: 'Playfair Display', serif;
+      border: 1px solid #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      -webkit-transition: all .3s ease-out!important;
+      transition: all .3s ease-out!important;
+      //display: inline-block;
+      //border-radius: 5px;
+      //padding: 4px;
+      //color: #fff;
+      //font-size: 20px;
+      //font-family: 'Playfair Display', serif;
       font-weight: 400;
-      line-height: 1.75em;
-      background: rgb(156, 84, 81, 0.8);;
+      //line-height: 1.75em;
+      //background: rgb(156, 84, 81, 0.8);;
     }
 
     &:hover .buttonBlock {

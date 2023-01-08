@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './Projects.module.scss'
 import Project from "./Project/Project";
-import socialNetwork from '../../image/imgProjects/social-network.webp'
+import socialNetwork from '../../image/imgProjects/sn.webp'
 import todoList from '../../image/imgProjects/To_Do_List.webp'
-import teamWork from './../../image/imgProjects/teamwork.jpg'
+import teamWork from './../../image/imgProjects/images.jfifs'
 import Zoom from 'react-reveal/Zoom';
 
 const Projects = () => {
