@@ -21,7 +21,7 @@ const AboutMe = () => {
                             <div className={style.aboutMeText}>
                                 I am a frontend developer with experience in creating web applications, using React / Redux.
                                 I am improving my skills in this direction and expanding them with the help of new technologies also in my free time i improve my English.
-                                I know how to work in a team. Open to your suggestions. I am ambitious and hard-working and believe you’ll give me a chance to prove my words.
+                                I know how to work in a team. Open to your suggestions. I am ambitious and hard-working.
                             </div>
                             <div className={style.iconInstagram}>
                                 <img src={iconInstagram} alt=""/>
@@ -31,7 +31,7 @@ const AboutMe = () => {
                 </Zoom>
             </div>
         </div>
-    );
-};
+    )
+}
 
 export default AboutMe;

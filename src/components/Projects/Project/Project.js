@@ -13,6 +13,7 @@ const Project = (props) => {
             </div>
             <div className={style.titleProject}>{props.titleProject}</div>
             <div className={style.aboutProject}>{props.aboutProject}</div>
+            <div className={style.stackProject}><span>Stack: </span> {props.stack}</div>
         </div>
     );
 };

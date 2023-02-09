@@ -1,0 +1,19 @@
+.skillBlock {
+  margin-top: 15px;
+  //width: 150px;
+  //height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .icon {
+    width: 170px;
+    height: 180px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 10px;
+  }
+  .nameSkill {
+    font-size: 22px;
+  }
+}
+

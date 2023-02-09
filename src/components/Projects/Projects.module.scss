@@ -1,7 +1,7 @@
 @import '../../common/styles/sass/mixins';
 
 .projectsBlock {
-  height: 100vh;
+
 .container {
   @include container ();
   .projectsTitle {
@@ -16,10 +16,25 @@
   .wrapperProjects {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
   }
+  @media screen and (max-width: 1125px)  {
+    .wrapperProjects {
+      justify-content: center;
+    }
+    .projectsBlock {
+      height: 100%;
+    }
+  }
 }
+  height: 100vh;
 }
 
+@media screen and (max-width: 1125px)  {
+  .projectsBlock {
+    height: 100%;
+  }
+}
 
 

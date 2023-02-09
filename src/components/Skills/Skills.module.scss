@@ -1,0 +1,13 @@
+@import '../../common/styles/sass/mixins';
+
+.skillsBlock {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  @include container();
+  .skillItem {
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+}
+
