@@ -1,0 +1,35 @@
+@import '../../common/styles/sass/mixins';
+
+
+.contackBlock {
+  .container {
+    @include container();
+
+    .wrapperTitleAndForm {
+      .contactTitle {
+        @include title()
+      }
+
+      .inputBlock {
+        display: flex;
+        flex-direction: column;
+      }
+      .buttonContact {
+        background-color: #9c5451;
+        color: #d7bdbc;
+        height: 50px;
+        opacity: 0.7;
+        transition: all 200ms linear;
+      }
+      .buttonContact:hover {
+        background-color: #9c5451;
+        color: #d7bdbc;
+        opacity: 1;
+      }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+}

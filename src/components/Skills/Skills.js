@@ -28,11 +28,15 @@ const Skills = () => {
         {name: 'Unit test', icon: {backgroundImage: `url(${testIcon})`}},
     ]
     return (
-        <div className={style.skillsBlock}>
-            {skills.map(skill => <div className={style.skillItem}>
-                <Skill name={skill.name} icon={skill.icon}/>
-            </div>)}
-
+            <div className={style.containerSkills}>
+                <div className={style.skillsBlock}>
+                <div className={style.titleSkills}>Skills</div>
+                <div className={style.itemsSkills}>
+                    {skills.map(skill => <div className={style.skillItem}>
+                        <Skill name={skill.name} icon={skill.icon}/>
+                    </div>)}
+                </div>
+            </div>
         </div>
     )
 }

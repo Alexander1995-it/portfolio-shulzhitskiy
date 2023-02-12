@@ -5,13 +5,7 @@
 .container {
   @include container ();
   .projectsTitle {
-    font-size: 35px;
-    font-weight: 400;
-    font-family: 'Playfair Display', serif;
-    line-height: 1.75em;
-    color: #9c5451;
-    text-align: center;
-    margin-top: 20px;
+   @include title()
   }
   .wrapperProjects {
     display: flex;
