@@ -2,34 +2,76 @@
 
 
 .contackBlock {
-  .container {
-    @include container();
 
-    .wrapperTitleAndForm {
-      .contactTitle {
-        @include title()
-      }
 
-      .inputBlock {
-        display: flex;
-        flex-direction: column;
-      }
-      .buttonContact {
-        background-color: #9c5451;
-        color: #d7bdbc;
-        height: 50px;
-        opacity: 0.7;
-        transition: all 200ms linear;
-      }
-      .buttonContact:hover {
-        background-color: #9c5451;
-        color: #d7bdbc;
-        opacity: 1;
-      }
+    .wrapperContact {
+      min-height: calc(100vh - 100px);
       display: flex;
       flex-direction: column;
       align-items: center;
+
+      .rowForm {
+        flex: 1 1 auto;
+
+        .wrapperTitleAndForm {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .contactTitle {
+            @include title()
+          }
+
+          .inputBlock {
+            display: flex;
+            flex-direction: column;
+          }
+
+          .buttonContact {
+            background-color: #9c5451;
+            color: #d7bdbc;
+            height: 50px;
+            opacity: 0.7;
+            transition: all 200ms linear;
+          }
+
+          .buttonContact:hover {
+            background-color: #9c5451;
+            color: #d7bdbc;
+            opacity: 1;
+          }
+
+        }
+      }
+
+      .rowFooter {
+        width: 100%;
+        height: 100px;
+        box-shadow: 0 0 50px 0 rgb(0 0 0 / 40%);
+        .wrapperFooter {
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .contentFooter {
+            .wrapperIcons {
+              width: 230px;
+              display: flex;
+              justify-content: space-between;
+              .icon {
+                width: 40px;
+                height: 40px;
+                background-size: cover;
+                background-position: center;
+              }
+            }
+
+          }
+        }
+
+      }
     }
-  }
+
+
 
 }

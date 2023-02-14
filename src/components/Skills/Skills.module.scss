@@ -6,20 +6,39 @@
   .skillsBlock {
     display: flex;
     flex-direction: column;
+
     .titleSkills {
       @include title()
     }
+
     .itemsSkills {
       display: flex;
       justify-content: flex-start;
       flex-wrap: wrap;
+
       .skillItem {
         margin-top: 15px;
-        margin-left: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
       }
     }
+
+    @media screen and (max-width: 690px) {
+      .itemsSkills {
+        justify-content: center;
+
+        .skillItem {
+          margin-top: 15px;
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+      }
+    }
+
   }
 }
+
+
 
 
 

@@ -2,19 +2,23 @@
 
 
 .aboutMeBlock {
-  height: 100vh;
+
   .container {
     @include container();
+
     .aboutMeWrapper {
       display: flex;
+
       .imagesBlock {
         width: 500px;
         height: 80vh;
         background-size: cover;
         background-position: center;
       }
+
       .aboutMeTextBlock {
-        margin-left: 60px;
+        margin-left: 40px;
+
         .aboutMeName {
           color: #9c5451;
           font-family: 'Playfair Display', serif;
@@ -24,6 +28,7 @@
           margin: 0;
           word-spacing: 5px;
         }
+
         .aboutMeProfession {
           margin: 0 0 20px 0;
           font-size: 12px;
@@ -33,16 +38,13 @@
           color: #fff;
           letter-spacing: 4px
         }
+
         .aboutMeText {
           max-width: 413px;
           color: #999;
           margin: 30px 0;
           font-size: 14px;
           line-height: 1.75em;
-        }
-        .iconInstagram {
-          width: 25px;
-          height: 25px;
         }
       }
     }

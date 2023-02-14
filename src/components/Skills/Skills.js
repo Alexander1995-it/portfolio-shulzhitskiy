@@ -11,6 +11,8 @@ import tsIcon from './iconsSkills/typescript-svgrepo-com.svg'
 import muiIcon from './iconsSkills/material-ui-svgrepo-com.svg'
 import axiosIcon from './iconsSkills/rest-api-svgrepo-com.svg'
 import testIcon from './iconsSkills/test-svgrepo-com.svg'
+import Zoom from 'react-reveal/Zoom'
+
 
 
 const Skills = () => {
@@ -28,16 +30,18 @@ const Skills = () => {
         {name: 'Unit test', icon: {backgroundImage: `url(${testIcon})`}},
     ]
     return (
-            <div className={style.containerSkills}>
-                <div className={style.skillsBlock}>
-                <div className={style.titleSkills}>Skills</div>
-                <div className={style.itemsSkills}>
-                    {skills.map(skill => <div className={style.skillItem}>
-                        <Skill name={skill.name} icon={skill.icon}/>
-                    </div>)}
-                </div>
-            </div>
-        </div>
+           <Zoom>
+               <div className={style.containerSkills}>
+                   <div className={style.skillsBlock}>
+                       <div className={style.titleSkills}>Skills</div>
+                       <div className={style.itemsSkills}>
+                           {skills.map(skill => <div className={style.skillItem}>
+                               <Skill name={skill.name} icon={skill.icon}/>
+                           </div>)}
+                       </div>
+                   </div>
+               </div>
+           </Zoom>
     )
 }
 

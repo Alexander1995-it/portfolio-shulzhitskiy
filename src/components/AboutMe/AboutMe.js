@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './AboutMe.module.scss'
 import myImage from './../../image/my_image.jpg'
-import iconInstagram from './../../common/icons/instagram-svgrepo-com.svg'
 import Zoom from 'react-reveal/Zoom'
 
 
@@ -22,9 +21,6 @@ const AboutMe = () => {
                                 I am a frontend developer with experience in creating web applications, using React / Redux.
                                 I am improving my skills in this direction and expanding them with the help of new technologies also in my free time i improve my English.
                                 I know how to work in a team. Open to your suggestions. I am ambitious and hard-working.
-                            </div>
-                            <div className={style.iconInstagram}>
-                                <img src={iconInstagram} alt=""/>
                             </div>
                         </div>
                     </div>

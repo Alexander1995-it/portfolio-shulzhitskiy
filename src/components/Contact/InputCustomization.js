@@ -5,14 +5,14 @@ import FormControl from '@mui/material/FormControl';
 
 const CssTextField = styled((props) => (
     <TextField
-        InputProps={{ disableUnderline: true }}
+        InputProps={{disableUnderline: true}}
         {...props}
     />
 ))(() => ({
     '& .MuiInputBase-input': {
         color: '#999',
         fontSize: '20px',
-        width: '500px',
+        maxWidth: '500px',
 
         backgroundColor: '#343333'
     },
