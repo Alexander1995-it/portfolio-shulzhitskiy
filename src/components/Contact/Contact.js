@@ -33,7 +33,7 @@ const Contact = () => {
                       <div className={style.rowForm}>
                           <div className={style.wrapperTitleAndForm}>
                               <div className={style.contactTitle}>Contact</div>
-                              <div className={style.inputBlock}>
+                              <div className={style.formBlock}>
                                   <CustomizedInputs label="Your name"
                                                     style={{display: 'inline-block', marginBottom: '10px'}}/>
                                   <CustomizedInputs label="Your email"
