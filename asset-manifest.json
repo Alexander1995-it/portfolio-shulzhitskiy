@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-shulzhitskiy/static/css/main.0a9dc5f1.css",
-    "main.js": "/portfolio-shulzhitskiy/static/js/main.5efce78c.js",
+    "main.css": "/portfolio-shulzhitskiy/static/css/main.715fc724.css",
+    "main.js": "/portfolio-shulzhitskiy/static/js/main.265f14d4.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-shulzhitskiy/static/js/787.28cb0dcd.chunk.js",
     "static/media/To_Do_List.webp": "/portfolio-shulzhitskiy/static/media/To_Do_List.55ec843dbea249682e8f.webp",
     "static/media/my_image.jpg": "/portfolio-shulzhitskiy/static/media/my_image.7fdb38285c898c5442ba.jpg",
@@ -21,12 +21,12 @@
     "static/media/linkedin-rounded-svgrepo-com.svg": "/portfolio-shulzhitskiy/static/media/linkedin-rounded-svgrepo-com.bad045da5ca2935c45296608265d42b0.svg",
     "static/media/rest-api-svgrepo-com.svg": "/portfolio-shulzhitskiy/static/media/rest-api-svgrepo-com.3e1d6c5622ba77ef6fa6655858c202bf.svg",
     "index.html": "/portfolio-shulzhitskiy/index.html",
-    "main.0a9dc5f1.css.map": "/portfolio-shulzhitskiy/static/css/main.0a9dc5f1.css.map",
-    "main.5efce78c.js.map": "/portfolio-shulzhitskiy/static/js/main.5efce78c.js.map",
+    "main.715fc724.css.map": "/portfolio-shulzhitskiy/static/css/main.715fc724.css.map",
+    "main.265f14d4.js.map": "/portfolio-shulzhitskiy/static/js/main.265f14d4.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-shulzhitskiy/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a9dc5f1.css",
-    "static/js/main.5efce78c.js"
+    "static/css/main.715fc724.css",
+    "static/js/main.265f14d4.js"
   ]
 }
